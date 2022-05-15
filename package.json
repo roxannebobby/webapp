@@ -1,0 +1,23 @@
+{
+	"name": "webapp",
+	"version": "1.0.0",
+	"description": "demo full stack app",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node backend/server.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/roxanneweber/webapp.git"
+	},
+	"author": "Roxanne Weber",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/roxanneweber/webapp/issues"
+	},
+	"homepage": "https://github.com/roxanneweber/webapp#readme",
+	"dependencies": {
+		"express": "^4.18.1"
+	}
+}
